@@ -1,6 +1,3 @@
 [[edge_functions]]
 function = "block-ip"
 path = "/*"
-
-# Need to stop the page from going to block-ip endlessly, only goes to block-ip only once if access is granted
-# if access is 200, goes back to "/" or "/index.html"
